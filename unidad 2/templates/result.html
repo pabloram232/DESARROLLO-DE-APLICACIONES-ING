@@ -1,0 +1,27 @@
+{% extends 'base.html'%}
+{% block body%}
+    <h2>{{the_title}}</h2>
+    <p>The values in the energy:</p>
+    <table>
+        <tr>
+            <td>L:</td>
+            <td>{{the_l}}</td>
+        </tr>
+        <tr>
+            <td>M:</td>
+            <td>{{the_m}}</td>
+        </tr>
+        <tr>
+            <td>T:</td>
+            <td>{{the_t}}</td>
+        </tr>
+        <tr>
+            <td colspan="2">energia=L^2MT^-3</td>
+        </tr>
+        <tr>
+            <td>energia:</td>
+            <td>{{the_result}}</td>
+        </tr>
+    </table>
+    <p><a href="/entry">Go back</a></p>
+{% endblock%}
