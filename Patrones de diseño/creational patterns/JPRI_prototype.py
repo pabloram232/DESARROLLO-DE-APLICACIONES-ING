@@ -1,11 +1,6 @@
 ﻿#Juan Pablo Ramirez Ibarra ---- GITI9072
 import copy
 
-""""Author: Yanet Olimpia Mora Garcia 
-    gmail: yanemora1996@gmail.com
-    date: 22/11/2017   """
-
-
 class Prototype:
     def __init__(self):
         self._objects = {}
