@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block body %}
+<h2>{{ the_title }}</h2>
+<form action='/exec_equation' method='POST'>
+<table>
+<p>TOTAL.</p>
+<tr><td>numero1 :</td><td><input name='num1' type='TEXT' width='60'></td></tr>
+    <tr><td>numero2 :</td><td><input type="TEXT" name="num2" /></td></tr>
+</table>
+<p>Resultado</p>
+<p><input value='Sumar' type='SUBMIT'></p>
+</form>
+    <p><a href="/data">Resultados</a></p>
+{% endblock %}
